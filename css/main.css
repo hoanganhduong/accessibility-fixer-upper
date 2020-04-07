@@ -10,9 +10,13 @@ html {
   color: #113c00;
 }
 
-a {
+nav a {
   color: #568c36;
   text-decoration: none;
+}
+
+a {
+  color: #568c36;
 }
 
 a:hover {

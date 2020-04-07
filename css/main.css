@@ -10,7 +10,7 @@ html {
   color: #113c00;
 }
 
-nav a {
+.nav a {
   color: #fff;
   text-decoration: none;
 }
@@ -29,18 +29,14 @@ a:hover {
   color: #fff;
 }
 
-nav {
+.nav {
   position: relative;
   background-color: #113c00;
   z-index: 2;
 }
 
-nav a {
-  color: #fff;
-  text-decoration: none;
-}
-
-nav a:hover {
+.nav a:hover,
+.nav a:focus {
   background-color: #fff;
   color: #113c00;
 }
@@ -93,17 +89,8 @@ td {
   color: #fff;
 }
 
-nav {
-  background-color: #113c00;
-}
-
 .color-darkgreen {
   color: #113c00;
-}
-
-nav a:focus {
-  background-color: #fff;
-  color: #568c36;
 }
 
 @media only screen and (min-width: 35em) {
